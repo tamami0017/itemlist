@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Pay.JP TEST</title>
+    <style type="text/css">
+<!--
+    #container{
+        width:768px;
+        margin : 10% auto;
+    }
+-->
+    </style>
+</head>
+<body>
+    <div id="container">
+    <h1>PayJP のテストページです。</h1>
+    <form action="<サーバにアップロードしたプロジェクトフォルダのパス>/payjp.php" method="post">
+        <script src="https://checkout.pay.jp/" class="payjp-button" data-key="<控えた公開キー>"></script>
+    </form>
+    </div>
+</body>
+</html>
